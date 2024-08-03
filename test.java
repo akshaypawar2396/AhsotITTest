@@ -9,8 +9,10 @@ public class LeaderElement {
         System.out.println("Leader elements are: " + leaders);
     }
 
+
+
     public static List<Integer> findLeaders(int[] arr) {
-        List<Integer> leaders = new ArrayList<>();
+        List<Integer> leader = new ArrayList<>();
         int n = arr.length;
         int maxFromRight = arr[n - 1];
         
